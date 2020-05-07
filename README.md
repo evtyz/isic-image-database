@@ -1,6 +1,9 @@
 # ISIC Images Database
 Storage of preprocessed ISIC images for melanoma detection.
-Data processed with Python Pillow library.
+Images processed using the Python Pillow Library. All images are 224x224 RGB jpegs, built for MobilenetV2. Older versions with original resolutions are available in the commit history.
+
+The Dullrazor software tool was used to remove obstructing hairs from photo. You can find more information at http://www.dermweb.com/dull_razor/.
+Lee T, Ng V, Gallagher R, Coldman A, McLean D. DullRazor: A software approach to hair removal from images. Computers in Biology and Medicine 1997;27:533-543.
 
 See more on my profile at https://github.com/richmondvan/melanoma-detection
 
